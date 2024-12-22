@@ -1,0 +1,30 @@
+#hero.hero-big {
+  min-height: 75vh;
+}
+
+.section {
+  display: block;
+  unicode-bidi: isolate;
+}
+.vanta-canvas {
+  -webkit-text-size-adjust: 100%;
+  line-height: 25px;
+  text-align: left;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  color: #000;
+  font-size: 100%;
+  aspect-ratio: auto 877 / 682;
+  display: block;
+  position: absolute;
+  z-index: 0;
+  top: 0px;
+  left: 0px;
+  width: 644px;
+  height: 498px;
+}
+.fullwidth-section {
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+}
