@@ -1,0 +1,93 @@
+.submenu {
+  position: fixed;
+}
+
+/* Add your styling for the video wrapper here */
+/* .video-wrapper {
+  position: relative;
+  cursor: pointer;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+span.pdf-error {
+  color: red;
+  font-weight: 600;
+}
+
+span.pdf-success {
+  color: green;
+  font-weight: 600;
+}
+
+.pdf-error {
+  color: red;
+  font-weight: 600;
+}
+
+.pdf-success {
+  color: green;
+  font-weight: 600;
+}
+.pdf-error,
+span.pdf-error {
+  color: red;
+  font-weight: 600;
+}
+
+.pdf-success,
+span.pdf-success {
+  color: green;
+  font-weight: 600;
+}
+a.nav_link.event.active {
+  color: #a50b02;
+  font-weight: 600;
+}
+
+a.nav_link.active {
+  color: #a50b02;
+  font-weight: 600;
+}
+span.visually-hidden {
+  margin-left: 35%;
+  margin-right: 35%;
+}
+span.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin-left: -1px;
+  clip: rect(0, 0, 0, 0);
+  /* hides the element but keeps it readable for screen readers */
+  overflow: hidden;
+}
+
+/* #cloudSlide {
+  backgroundColor: 0xffffff;
+  skyColor: 0x2d48cd;
+  cloudColor: 0xadc1de;
+  cloudShadowColor: 0x183550;
+  sunColor: 0xff9919;
+  sunGlareColor: 0xff6633;
+  sunlightColor: 0xff9933;
+  speed: 1;
+} */
