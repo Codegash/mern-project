@@ -7,14 +7,14 @@ const App = () => {
         {/* <!-- PAGE LOADER --> */}
         <div id="page-loader" className="pulsing">
           <div className="loader-name">
-            {/* <img
+            { <img
               src="files/uploads/blue.png"
               srcSet="https://www.bluedigital.co.in/files/uploads/blue.png 1x, https://www.bluedigital.co.in/files/uploads/blue.png 2x"
               alt="Loader Logo"
-            /> */}
+            /> }
           </div>
           <div className="loader-circle">
-            {/* <svg
+            { <svg
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -25,7 +25,7 @@ const App = () => {
               xmlSpace="preserve"
             >
               <circle cx="126.7" cy="126.7" r="124.2" />
-            </svg> */}
+            </svg> }
           </div>
         </div>
         {/* <!-- PAGE CONTENT --> */}
@@ -35,11 +35,11 @@ const App = () => {
               <div className="submenu">
                 <div id="logo">
                   <a href="index.html">
-                    {/* <img
+                    { <img
                       id="dark-logo"
                       src="files/uploads/blue_white.png"
                       alt=""
-                    /> */}
+                    /> }
                   </a>
                 </div>
                 <div className="togl">
@@ -59,11 +59,11 @@ const App = () => {
             <div className="submenu">
               <div id="logo">
                 <a href="index.html">
-                  {/* <img
+                  { <img
                     id="dark-logo"
                     src="files/uploads/blue_white.png"
                     alt=""
-                  /> */}
+                  /> }
                 </a>
               </div>
               <div className="togl">
@@ -77,18 +77,18 @@ const App = () => {
               </div>
               <div id="myNav" className="overlay">
                 <a href="#" className="header_img">
-                  {/* <img
+                  { <img
                     id="dark-logo"
                     src="files/uploads/blue_white.png"
                     alt=""
-                  /> */}
+                  /> }
                 </a>
                 <a
                   href="javascript:void(0)"
                   className="closebtn"
                   onClick={() => closeNav()}
                 >
-                  {/* <img src="files/uploads/noun-cross.png" alt="" /> */}
+                  {<img src="files/uploads/noun-cross.png" alt="" /> }
                 </a>
 
                 <div className="overlay-content" id="nID">
@@ -137,7 +137,7 @@ const App = () => {
               className="video-wrapper img_section"
               onClick={() => playVideo()}
             >
-              {/* <img src="files/uploads/cover2.jpg" alt="Video Thumbnail" /> */}
+              {<img src="files/uploads/cover2.jpg" alt="Video Thumbnail" /> }
             </div>
 
             <div className="video-wrapper vdo_section">
@@ -170,10 +170,10 @@ const App = () => {
                   href="Case-Study/Click2-Confirm/index.html"
                   className="thumb-hover text-light"
                 >
-                  {/* <img
+                  {<img
                     src="files/uploads/Arkaenergy/Click2COVER2.jpg"
                     alt="SEO"
-                  /> */}
+                  /> }
                 </a>
               </div>
             </div>
@@ -184,7 +184,7 @@ const App = () => {
                   href="Case-Study/Arkaenergy-AB-Sweden/index.html"
                   className="thumb-hover text-light"
                 >
-                  {/* <img src="files/uploads/Arkaenergy/Cover2.jpg" alt="SEO" /> */}
+                  { <img src="files/uploads/Arkaenergy/Cover2.jpg" alt="SEO" /> }
                 </a>
               </div>
             </div>
@@ -195,7 +195,7 @@ const App = () => {
                   href="Case-Study/IIT-Abu-Dhabi/index.html"
                   className="thumb-hover text-light"
                 >
-                  {/* <img src="files/uploads/Educanada/dubai.png" alt="SEO" /> */}
+                  { <img src="files/uploads/Educanada/dubai.png" alt="SEO" /> }
                 </a>
               </div>
             </div>
@@ -203,7 +203,7 @@ const App = () => {
             <div className="smartscroll-item portfolio-item portfolio-smart-item">
               <div className="portfolio-item-inner item-inner">
                 <a href="Case-Study/philips/index.html" className="thumb-hover">
-                  {/* <img src="files/uploads/portfolio-home/1.jpg" alt="SEO" /> */}
+                  {<img src="files/uploads/portfolio-home/1.jpg" alt="SEO" /> }
                 </a>
               </div>
             </div>
@@ -214,7 +214,7 @@ const App = () => {
                   href="Case-Study/westford/index.html"
                   className="thumb-hover text-light"
                 >
-                  {/* <img src="files/uploads/portfolio-home/2.jpg" alt="SEO" /> */}
+                  {<img src="files/uploads/portfolio-home/2.jpg" alt="SEO" /> }
                 </a>
               </div>
             </div>
@@ -225,7 +225,7 @@ const App = () => {
                   href="Case-Study/all-india-radio/index.html"
                   className="thumb-hover text-light"
                 >
-                  {/* <img src="files/uploads/portfolio-home/3.jpg" alt="SEO" /> */}
+                  { <img src="files/uploads/portfolio-home/3.jpg" alt="SEO" /> }
                 </a>
               </div>
             </div>
@@ -236,7 +236,7 @@ const App = () => {
                   href="Case-Study/online-education/index.html"
                   className="thumb-hover text-dark"
                 >
-                  {/* <img src="files/uploads/portfolio-home/4.jpg" alt="SEO" /> */}
+                  {<img src="files/uploads/portfolio-home/4.jpg" alt="SEO" /> }
                 </a>
               </div>
             </div>
@@ -247,7 +247,7 @@ const App = () => {
                   href="Case-Study/max-skillfirst/index.html"
                   className="thumb-hover text-light"
                 >
-                  {/* <img src="files/uploads/portfolio-home/5.jpg" alt="SEO" /> */}
+                  {<img src="files/uploads/portfolio-home/5.jpg" alt="SEO" /> }
                 </a>
               </div>
             </div>
@@ -269,7 +269,7 @@ const App = () => {
                   href="Case-Study/explainer-videos/index.html"
                   className="thumb-hover text-light"
                 >
-                  {/* <img src="files/uploads/portfolio-home/7.jpg" alt="SEO" /> */}
+                  {<img src="files/uploads/portfolio-home/7.jpg" alt="SEO" /> }
                 </a>
               </div>
             </div>
@@ -280,7 +280,7 @@ const App = () => {
                   href="Case-Study/documentary-and-training-videos/index.html"
                   className="thumb-hover"
                 >
-                  {/* <img src="files/uploads/portfolio-home/8.jpg" alt="SEO" /> */}
+                  { <img src="files/uploads/portfolio-home/8.jpg" alt="SEO" /> }
                 </a>
               </div>
             </div>
@@ -290,7 +290,7 @@ const App = () => {
                   href="Case-Study/2D-3D-animation-videos/index.html"
                   className="thumb-hover"
                 >
-                  {/* <img src="files/uploads/portfolio-home/8a.jpg" alt="SEO" /> */}
+                  {<img src="files/uploads/portfolio-home/8a.jpg" alt="SEO" /> }
                 </a>
               </div>
             </div>
@@ -300,7 +300,7 @@ const App = () => {
                   href="Case-Study/other-conceptual-videos/index.html"
                   className="thumb-hover"
                 >
-                  {/* <img src="files/uploads/portfolio-home/8b.jpg" alt="SEO" /> */}
+                  { <img src="files/uploads/portfolio-home/8b.jpg" alt="SEO" /> }
                 </a>
               </div>
             </div>
@@ -310,7 +310,7 @@ const App = () => {
                   href="Case-Study/tv-and-web-commercials/index.html"
                   className="thumb-hover"
                 >
-                  {/* <img src="files/uploads/portfolio-home/8c.jpg" alt="SEO" /> */}
+                  {<img src="files/uploads/portfolio-home/8c.jpg" alt="SEO" /> }
                 </a>
               </div>
             </div>
@@ -321,7 +321,7 @@ const App = () => {
                   className="thumb-hover text-light"
                 >
                   <div className="overlay-media">
-                    {/* <img src="files/uploads/portfolio-home/9.jpg" alt="SEO" /> */}
+                    { <img src="files/uploads/portfolio-home/9.jpg" alt="SEO" /> }
                   </div>
                   <div className="overlay-caption bottom align-left"></div>
                 </a>
@@ -334,7 +334,7 @@ const App = () => {
                   className="thumb-hover text-light"
                 >
                   <div className="overlay-media">
-                    {/* <img src="files/uploads/portfolio-home/10.jpg" alt="SEO" /> */}
+                    {<img src="files/uploads/portfolio-home/10.jpg" alt="SEO" /> }
                   </div>
                   <div className="overlay-caption bottom align-left"></div>
                 </a>
@@ -348,7 +348,7 @@ const App = () => {
                   className="thumb-hover text-light"
                 >
                   <div className="overlay-media">
-                    {/* <img src="files/uploads/portfolio-home/11.jpg" alt="SEO" /> */}
+                    { <img src="files/uploads/portfolio-home/11.jpg" alt="SEO" /> }
                   </div>
                   <div className="overlay-caption bottom align-left"></div>
                 </a>
@@ -362,10 +362,10 @@ const App = () => {
                   className="thumb-hover text-light"
                 >
                   <div className="overlay-media">
-                    {/* <img
+                    { <img
                       src="files/uploads/portfolio-home/western.png"
                       alt="SEO"
-                    /> */}
+                    /> }
                   </div>
                   <div className="overlay-caption bottom align-left"></div>
                 </a>
@@ -379,10 +379,10 @@ const App = () => {
                   className="thumb-hover text-light"
                 >
                   <div className="overlay-media">
-                    {/* <img
+                    { <img
                       src="files/uploads/portfolio-home/vedic.png"
                       alt="SEO"
-                    /> */}
+                    /> }
                   </div>
                   <div className="overlay-caption bottom align-left"></div>
                 </a>
@@ -396,10 +396,10 @@ const App = () => {
                   className="thumb-hover text-light"
                 >
                   <div className="overlay-media">
-                    {/* <img
+                    { <img
                       src="files/uploads/portfolio-home/anonet.png"
                       alt="SEO"
-                    /> */}
+                    /> }
                   </div>
                   <div className="overlay-caption bottom align-left"></div>
                 </a>
@@ -414,7 +414,7 @@ const App = () => {
         <div className="loader" style={{ display: "none" }}>
           <div className="spinner-border text-primary" role="status">
             <span className="visually-hidden" style={{ textAlign: "center" }}>
-              {/* <img src="files/video/loader.gif" style="width:25%;" /> */}
+              { <img src="files/video/loader.gif" style="width:25%;" /> }
             </span>
           </div>
         </div>
@@ -471,7 +471,7 @@ const App = () => {
         <div className="loader" style={{ display: "none" }}>
           <div className="spinner-border text-primary" role="status">
             {/* <span className="visually-hidden" style="text-align: center;"> */}
-            {/* <img src="files/video/loader.gif" style="width:25%;" /> */}
+            { <img src="files/video/loader.gif" style="width:25%;" /> }
             {/* </span> */}
           </div>
         </div>
@@ -531,12 +531,12 @@ const App = () => {
               <div className="column one-third">
                 <div className="widget widget_text">
                   <p>
-                    {/* <img
+                    { <img
                       src="files/uploads/Untitled-2.svg"
                       srcSet="https://www.bluedigital.co.in/files/uploads/Untitled-2.svg 1x, https://www.bluedigital.co.in/files/uploads/Untitled-2.svg 2x"
                       alt="Logo Dark"
                       style=""
-                    /> */}
+                    /> }
                   </p>
                   {/* <!-- <p className="cp">Blue is an uncommon, aggressive, calculative,<br> and high-in-demand digital solutions provider.</p> --> */}
                 </div>
